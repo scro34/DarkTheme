@@ -1,0 +1,310 @@
+{
+  "baseUrl": "/jukebox/",
+  
+  "playlistData": [
+    {
+      "artist": "Can",
+      "album": "Ege Bamyasi (1972)",
+      "albumCover": "Ege_Bamyasi.jpg",
+      "title": "One More Night",
+      "file": "One_More_Night.mp3",
+      "duration": "5:32",
+      "homepage": "http://www.spoonrecords.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/Can_%28band%29",
+      "video": {
+        "title": "Shikaru Maru Ten (1972)",
+        "url": "https://www.youtube.com/embed/aIJamrpOf8A",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Corvus Corax",
+      "album": "Seikilos (2002)",
+      "albumCover": "Seikilos.jpg",
+      "title": "Satyricon",
+      "file": "Satyricon.mp3",
+      "duration": "3:04",
+      "homepage": "http://www.corvuscorax.de",
+      "wikipedia": "http://en.wikipedia.org/wiki/Corvus_Corax_%28band%29",
+      "video": {
+        "title": "Chou Chou Cheng (2003)",
+        "url": "https://www.youtube.com/embed/ADuCbafqBDQ",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "DDT",
+      "album": "Propavshij Bez Vesti (2005)",
+      "albumCover": "Propavshij_Bez_Vesti.jpg",
+      "title": "Mama, Eto Rock 'n' Roll",
+      "file": "Mama_Eto_Rock_n_Roll.mp3",
+      "duration": "5:06",
+      "homepage": "http://www.ddt.ru",
+      "wikipedia": "http://en.wikipedia.org/wiki/DDT_%28band%29",
+      "video": {
+        "title": "Live in Moscow (2005)",
+        "url": "https://www.youtube.com/embed/vVRd6z9nvlo",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Dhafer Youssef",
+      "album": "Divine Shadows (2006)",
+      "albumCover": "Divine_Shadows.jpg",
+      "title": "Chromatic Shadows",
+      "file": "Chromatic_Shadows.mp3",
+      "duration": "6:25",
+      "homepage": "http://dhaferyoussef.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/Dhafer_Youssef",
+      "video": {
+        "title": "Jazz San Javier (2010)",
+        "url": "https://www.youtube.com/embed/tce_SMf4XJc",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Inna Zhelannaya",
+      "album": "Zima (2008)",
+      "albumCover": "Winter.png",
+      "title": "Alyonushka",
+      "file": "Alyonushka.mp3",
+      "duration": "7:25",
+      "homepage": "http://www.inasound.ru/en/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Inna_Zhelannaya",
+      "video": {
+        "title": "Live in Tele Club (2010)",
+        "url": "https://www.youtube.com/embed/ngJaYlsH3l0",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "L'Ham de Foc",
+      "album": "Cor de Porc (2005)",
+      "albumCover": "Cor_de_Porc.jpg",
+      "title": "Pandero",
+      "file": "Pandero.mp3",
+      "duration": "4:06",
+      "homepage": "http://www.efrenlopez.net/web_angles/angproj-lham.htm",
+      "wikipedia": "http://de.wikipedia.org/wiki/L%E2%80%99Ham_de_Foc",
+      "video": {
+        "title": "Encara",
+        "url": "https://www.youtube.com/embed/TzKY9wVELxE",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Lyapis Trubetskoy",
+      "album": "Rabkor (2012)",
+      "albumCover": "Rabkor.jpg",
+      "title": "Bronenossez",
+      "file": "Bronenossez.mp3",
+      "duration": "3:33",
+      "homepage": "http://www.lyapis.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Lyapis_Trubetskoy",
+      "video": {
+        "title": "Rabkor Live (2012)",
+        "url": "https://www.youtube.com/embed/b0bBeCKOURc",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Mari Boine",
+      "album": "Eallin (1996)",
+      "albumCover": "Eallin.jpg",
+      "title": "Vuolgge Mu Mielde Bassivarrai",
+      "file": "Vuolgge_Mu_Mielde_Bassivarrai.mp3",
+      "duration": "10:50",
+      "homepage": "http://www.mariboine.no",
+      "wikipedia": "http://en.wikipedia.org/wiki/Mari_Boine",
+      "video": {
+        "title": "Goaskinviellja / Eagle Brother (2009)",
+        "url": "https://www.youtube.com/embed/kprl0CECykA",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Mercan Dede",
+      "album": "800 (2007)",
+      "albumCover": "800.jpg",
+      "title": "The Sun Rises in the East",
+      "file": "The_Sun_Rises_in_the_East.mp3",
+      "duration": "5:24",
+      "homepage": "http://www.mercandede.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/Mercan_Dede",
+      "video": {
+        "title": "Live in Paris",
+        "url": "https://www.youtube.com/embed/cZ3N6FoisAw",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Niyaz",
+      "album": "Niyaz (2005)",
+      "albumCover": "Niyaz.jpg",
+      "title": "Golzar",
+      "file": "Golzar.mp3",
+      "duration": "5:00",
+      "homepage": "http://www.niyazmusic.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Niyaz",
+      "video": {
+        "title": "The Hunt (2013)",
+        "url": "https://www.youtube.com/embed/kII5nCc9W28",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Peter Fox",
+      "album": "Stadtaffe (2008)",
+      "albumCover": "Stadtaffe.jpg",
+      "title": "Schwarz zu Blau",
+      "file": "Schwarz_zu_Blau.mp3",
+      "duration": "3:35",
+      "homepage": "http://www.peterfox.de",
+      "wikipedia": "http://en.wikipedia.org/wiki/Peter_Fox_%28musician%29",
+      "video": {
+        "title": "Lok auf zwei Beinen (2009)",
+        "url": "https://www.youtube.com/embed/362OUej4t7k",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Rokia Traoré",
+      "album": "Tchamantché (2008)",
+      "albumCover": "Tchamantche.jpg",
+      "title": "Tchamantché",
+      "file": "Tchamantche.mp3",
+      "duration": "4:14",
+      "homepage": "http://www.rokiatraore.net",
+      "wikipedia": "http://en.wikipedia.org/wiki/Rokia_Traor%C3%A9",
+      "video": {
+        "title": "@ The Festival Les Suds in Arles (2013)",
+        "url": "https://www.youtube.com/embed/FrDL6cOXsvw",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Schwester S",
+      "album": "S ist soweit (1995)",
+      "albumCover": "S_ist_soweit.jpg",
+      "title": "S ist soweit",
+      "file": "S_ist_soweit.mp3",
+      "duration": "2:55",
+      "homepage": "",
+      "wikipedia": "http://en.wikipedia.org/wiki/Sabrina_Setlur",
+      "video": {
+        "title": "Hier kommt die Schwester (1995)",
+        "url": "https://www.youtube.com/embed/rc3J2jwm1eQ",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Televizor",
+      "album": "Deja Vu (2009)",
+      "albumCover": "DejaVu.jpg",
+      "title": "Kvadraty",
+      "file": "Squares.mp3",
+      "duration": "2:42",
+      "homepage": "http://www.televizorr.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Televizor",
+      "video": {
+        "title": "Zakolotite podval (2009)",
+        "url": "https://www.youtube.com/embed/OQl1ET4QW0A",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Tinariwen",
+      "album": "Imidiwan (2009)",
+      "albumCover": "Imidiwan.jpg",
+      "title": "Imazeghen n Adagh",
+      "file": "Imazeghen_n_Adagh.mp3",
+      "duration": "3:46",
+      "homepage": "http://www.tinariwen.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/Tinariwen",
+      "video": {
+        "title": "Live at Womad (2004)",
+        "url": "https://www.youtube.com/embed/uUS0-0Fv7c8",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Trombone Shorty",
+      "album": "Backatown (2010)",
+      "albumCover": "Backatown.jpg",
+      "title": "Hurricane Season",
+      "file": "Hurricane_Season.mp3",
+      "duration": "3:20",
+      "homepage": "http://www.tromboneshorty.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/Trombone_Shorty",
+      "video": {
+        "title": "Backatown /Suburbia (2011)",
+        "url": "https://www.youtube.com/embed/1yRhacGLGEs",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Valravn",
+      "album": "Valravn (2007)",
+      "albumCover": "Valravn.jpg",
+      "title": "Vallevan",
+      "file": "Vallevan.mp3",
+      "duration": "3:57",
+      "homepage": "http://www.valravn.net",
+      "wikipedia": "http://de.wikipedia.org/wiki/Valravn",
+      "video": {
+        "title": "Kelling (2010)",
+        "url": "https://www.youtube.com/embed/H1IETU9TOtw",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Värttinä",
+      "album": "Ilmatar (2000)",
+      "albumCover": "Ilmatar.jpg",
+      "title": "Liigua",
+      "file": "Liigua.mp3",
+      "duration": "5:04",
+      "homepage": "http://varttina.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/V%C3%A4rttin%C3%A4",
+      "video": {
+        "title": "Äijö (2013)",
+        "url": "https://www.youtube.com/embed/9nd8psDOtMw",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Yat-Kha",
+      "album": "tuva.rock (2003)",
+      "albumCover": "Tuva_Rock.jpg",
+      "title": "Come Along",
+      "file": "Come_Along.mp3",
+      "duration": "2:49",
+      "homepage": "http://www.yat-kha.ru/en/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Yat-Kha",
+      "video": {
+        "title": "Uzhur-La Bar (2004)",
+        "url": "https://www.youtube.com/embed/iMLEtpTTUFQ",
+        "width": 640,
+        "height": 480
+      }
+    }
+  ]
+}

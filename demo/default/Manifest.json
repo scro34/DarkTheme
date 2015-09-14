@@ -1,0 +1,34 @@
+{
+  "info" : 
+  {
+    "name" : "DarkTheme Demo",
+
+    "summary" : "DarkTheme Theme Demo",
+    "description" : "Demo application for the DarkTheme theme contribution",
+    
+    "homepage" : "http://demo.qooxdoo.org/contrib/DarkTheme",
+
+    "license" : "LGPL/EPL",
+    "authors" : 
+    [
+      {
+        "name" : "Norbert Schröder (scro34)",
+        "email" : "schroeder@scro34.de"
+      }
+    ],
+
+    "version" : "trunk",
+    "qooxdoo-versions": ["3.0", "3.5", "4.0", "4.1", "5.0"],
+  },
+  
+  "provides" : 
+  {
+    "namespace"   : "darktheme.demo",
+    "encoding"    : "utf-8",
+    "class"       : "source/class",
+    "resource"    : "source/resource",
+    "translation" : "source/translation",
+    "type"        : "application"
+  }
+}
+
