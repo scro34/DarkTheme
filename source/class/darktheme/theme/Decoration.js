@@ -868,19 +868,14 @@ qx.Theme.define("darktheme.theme.Decoration",
     
     "scrollbar-slider":
     {
-	  style: {
-		width: 1,
-	    color: "#525252",
-	    
-	    innerWidth: 1,
-        innerColor: "#929292",
-        innerOpacity : 0.5
+	    style: {
+        radius: 15
       }
     },
     
-	"scrollbar-slider-horizontal":
+	  "scrollbar-slider-horizontal":
     {
-	  include: "scrollbar-slider",
+	    include: "scrollbar-slider",
 	  
       style: {
         backgroundImage: "decoration/scrollbar/scrollbar-slider-horizontal.png",
@@ -888,9 +883,9 @@ qx.Theme.define("darktheme.theme.Decoration",
       }
     },
 	
-	"scrollbar-slider-horizontal-hovered":
+	  "scrollbar-slider-horizontal-hovered":
     {
-	  include: "scrollbar-slider",
+	    include: "scrollbar-slider",
 	  
       style: {
         backgroundImage: "decoration/scrollbar/scrollbar-slider-horizontal-hovered.png",
@@ -911,9 +906,9 @@ qx.Theme.define("darktheme.theme.Decoration",
       }
     },
 	
-	"scrollbar-slider-vertical":
+	  "scrollbar-slider-vertical":
     {
-	  include: "scrollbar-slider",
+	    include: "scrollbar-slider",
 	  
       style: {
         backgroundImage: "decoration/scrollbar/scrollbar-slider-vertical.png",
@@ -921,9 +916,9 @@ qx.Theme.define("darktheme.theme.Decoration",
       }
     },
 	
-	"scrollbar-slider-vertical-hovered":
+	  "scrollbar-slider-vertical-hovered":
     {
-	  include: "scrollbar-slider",
+	    include: "scrollbar-slider",
 	  
       style: {
         backgroundImage : "decoration/scrollbar/scrollbar-slider-vertical-hovered.png",
@@ -937,6 +932,70 @@ qx.Theme.define("darktheme.theme.Decoration",
 	  
       style: {
         backgroundImage: "decoration/scrollbar/scrollbar-button-bg-vertical.png"
+      }
+    },
+    
+    "scrollbar-button-horizontal-left":
+    {
+      style: {
+        backgroundImage: "decoration/scrollbar/scrollbar-button-horizontal-left.png",
+        backgroundRepeat: "scale"
+      }
+    },
+
+    "scrollbar-button-horizontal-left-hovered":
+    {
+      style: {
+        backgroundImage: "decoration/scrollbar/scrollbar-button-horizontal-left-hovered.png",
+        backgroundRepeat: "scale"
+      }
+    },
+    
+    "scrollbar-button-horizontal-right":
+    {
+      style: {
+        backgroundImage: "decoration/scrollbar/scrollbar-button-horizontal-right.png",
+        backgroundRepeat: "scale"
+      }
+    },
+    
+    "scrollbar-button-horizontal-right-hovered":
+    {
+      style: {
+        backgroundImage: "decoration/scrollbar/scrollbar-button-horizontal-right-hovered.png",
+        backgroundRepeat: "scale"
+      }
+    },
+    
+    "scrollbar-button-vertical-up":
+    {
+      style: {
+        backgroundImage: "decoration/scrollbar/scrollbar-button-vertical-up.png",
+        backgroundRepeat: "scale"
+      }
+    },
+    
+    "scrollbar-button-vertical-up-hovered":
+    {
+      style: {
+        backgroundImage: "decoration/scrollbar/scrollbar-button-vertical-up-hovered.png",
+        backgroundRepeat: "scale"
+      }
+    },
+    
+    "scrollbar-button-vertical-down":
+    {
+      style: {
+        backgroundImage: "decoration/scrollbar/scrollbar-button-vertical-down.png",
+        backgroundRepeat: "scale"
+      }
+    },
+    
+    "scrollbar-button-vertical-down-hovered":
+    {
+      style: {
+        backgroundImage: "decoration/scrollbar/scrollbar-button-vertical-down-hovered.png",
+        backgroundRepeat: "scale"
       }
     },
 

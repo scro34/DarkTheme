@@ -213,7 +213,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       style: function(states)
       {
         return {
-          icon: states.selected || states.hovered || states.focused ? "decoration/arrows/down-selected.png" : "decoration/arrows/down-invert.png",
+          icon: "decoration/arrows/down-invert.png",
           iconPosition: "right"
         };
       }
@@ -1236,7 +1236,8 @@ qx.Theme.define("darktheme.theme.Appearance",
       {
         return {
           source: "decoration/arrows/right-invert.png",
-          alignY: "middle"
+          alignY: "middle",
+          paddingLeft: 5
         };
       }
     },
@@ -1477,10 +1478,10 @@ qx.Theme.define("darktheme.theme.Appearance",
         }
 
         return {
-          width: states.horizontal ? undefined : 16,
-          height: states.horizontal ? 16 : undefined,
+          width: states.horizontal ? undefined : 12,
+          height: states.horizontal ? 12 : undefined,
           decorator: states.horizontal ? "scrollbar-horizontal" : "scrollbar-vertical",
-          padding: 1
+          padding: 0
         };
       }
     },
@@ -1497,81 +1498,81 @@ qx.Theme.define("darktheme.theme.Appearance",
       }
     },
     
-	"scrollbar/slider/knob":
+	  "scrollbar/slider/knob":
     {
       include: "button-frame",
 
       style: function(states)
       {
         var decorator;
-		if (states.horizontal) 
-		{
-		  if (states.hovered) 
-		  {
-		    decorator = "scrollbar-slider-horizontal-hovered";
-		  } else {
-		    decorator = "scrollbar-slider-horizontal";
-		  }
-		} else {
-		  if (states.hovered) 
-		  {
+        var margin;
+        
+		    if (states.horizontal) {
+          if (states.hovered) {
+		        decorator = "scrollbar-slider-horizontal-hovered";
+		      } else {
+		        decorator = "scrollbar-slider-horizontal";
+		      }
+		    } else {
+		      if (states.hovered) {
             decorator = "scrollbar-slider-vertical-hovered";
-		  } else {
-		    decorator = "scrollbar-slider-vertical";
-		  }
-		}
+		      } else {
+		        decorator = "scrollbar-slider-vertical";
+		      }
+		    }
         return {
           decorator: decorator,
-          minHeight: states.horizontal ? undefined : 9,
-          minWidth: states.horizontal ? 9 : undefined
+          margin: states.vertical ? [1, 0] : [0, 1],
+          minHeight: states.horizontal ? undefined : 12,
+          minWidth: states.horizontal ? 12 : undefined,
+          cursor: states.disabled ? "default" : "pointer"
         };
       }
     },
 	
-	"scrollbar/button":
+	  "scrollbar/button":
     {
       style: function(states)
       {
         var icon = "decoration/scrollbar/";
-		var decorator;
+		    var decorator;
+        
         if (states.left) {
           icon += "left";
-		  decorator = "scrollbar-slider-horizontal";
+		      decorator = "scrollbar-button-horizontal-left";
         } else if (states.right) {
           icon += "right";
-		  decorator = "scrollbar-slider-horizontal";
+		      decorator = "scrollbar-button-horizontal-right";
         } else if (states.up) {
           icon += "up";
-		  decorator = "scrollbar-slider-vertical";
+		      decorator = "scrollbar-button-vertical-up";
         } else {
           icon += "down";
-		  decorator = "scrollbar-slider-vertical";
+          decorator = "scrollbar-button-vertical-down";
         }
-		icon += "-invert.png";
+		    icon += "-invert.png";
 		
-		if (states.hovered)
-		{
-		  decorator += "-hovered";
-		}
+		    if (states.hovered) {
+		      decorator += "-hovered";
+		    }
 
-        if (states.left || states.right)
-        {
+        if (states.left || states.right) {
           return {
-		    decorator: decorator,
-            padding: [0, 0, 0, states.left ? 3 : 4],
+		        decorator: decorator,
+            padding: states.left ? [0, 0, 1, 4] : [0, 0, 1, 10],
+            margin: states.left ? [0, -8, 0, 0] : [0, 0, 0, -7],
             icon: icon,
-            width: 15,
-            height: 14
+            minWidth: 20,
+            cursor: states.disabled ? "default" : "pointer"
           }
-        }
-        else
-        {
+        } else {
           return {
-		    decorator: decorator,
-            padding: [0, 2, 0, 1],
+		        decorator: decorator,
+            padding: states.up ? [0, 0, 7, 3] : [7, 0, 0, 3],
+            margin: states.up ? [0, 0, -7 , 0] : [-7, 0, 0, 0],
             icon: icon,
-            width: 14,
-            height: 15
+            minHeight: 20,
+            cursor: states.disabled ? "default" : "pointer"
           }
         }
       }
@@ -1944,7 +1945,7 @@ qx.Theme.define("darktheme.theme.Appearance",
         return {
           minWidth: 13,
           minHeight: 20,
-          padding: states.hovered ? [ 1, 3, 3, 5 ] : [ 0, 4, 4, 4 ],
+          padding: states.hovered ? [ 3, 4, 3, 4 ] : [ 2, 4, 4, 4 ],
           decorator: states.hovered ? "table-header-cell-selected" : "table-header-cell",
           sortIcon: states.sorted ?
               (states.sortedAscending ? "decoration/arrows/down-invert.png" : "decoration/arrows/up-invert.png")
@@ -2643,7 +2644,8 @@ qx.Theme.define("darktheme.theme.Appearance",
         return {
           padding: [ 2, 6 ],
           textColor: states.selected ? "text-highlight" : states.disabled ? "red" : undefined,
-          decorator: decorator
+          decorator: decorator,
+          cursor: states.disabled ? "default" : "pointer"
         };
       }
     },
@@ -2662,9 +2664,9 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "tree-item/label": 
     {
-	  include: "label",
+	    include: "label",
 	  
-	  style: function(states)
+	    style: function(states)
       {
         return {
           textColor: states.disabled ? "text-disabled" : undefined
@@ -2679,20 +2681,14 @@ qx.Theme.define("darktheme.theme.Appearance",
       style: function(states)
       {
         var icon;
-        if (states.selected && states.opened)
-        {
+        
+        if (states.selected && states.opened) {
           icon = "decoration/tree/open-selected.png";
-        }
-        else if (states.selected && !states.opened)
-        {
+        } else if (states.selected && !states.opened) {
           icon = "decoration/tree/closed-selected.png";
-        }
-        else if (states.opened)
-        {
+        } else if (states.opened) {
           icon = "decoration/tree/open.png";
-        }
-        else
-        {
+        } else {
           icon = "decoration/tree/closed.png";
         }
 
@@ -2711,6 +2707,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       style: function(states)
       {
         var icon, iconOpened;
+        
         if (states.small) {
           icon = states.opened ? "icon/16/places/folder-open.png" : "icon/16/places/folder.png";
           iconOpened = "icon/16/places/folder-open.png";
