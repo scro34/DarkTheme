@@ -275,23 +275,8 @@ qx.Theme.define("darktheme.theme.Appearance",
 
       style: function(states)
       {
-        var icon = states.undetermined ? states.disabled ? "decoration/checkbox/undetermined-disabled.png" :
-                                                           "decoration/checkbox/undetermined.png" :
-                                                           "";
         var icon = "";
         
-        if (states.undetermined) {
-		  icon = "decoration/checkbox/undetermined";
-		
-		  if (states.disabled) {
-			icon +="-disabled";
-		  } else if (states.hovered) {
-			icon += "-hovered";
-		  }
-		
-		  icon += ".png";
-		}
-		
         return {
           icon: icon,
           gap: 8,
@@ -305,10 +290,12 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       style: function(states)
       {
-		var decorator = "checkbox";
+        var decorator = "checkbox";
         
         if (states.checked) {
           decorator += "-checked";
+        } else if (states.undetermined) {
+          decorator += "-undetermined";
         }
         
         if (states.disabled) {
@@ -322,8 +309,8 @@ qx.Theme.define("darktheme.theme.Appearance",
         }
         
         return {
-		  decorator: decorator,
-		  cursor: states.hovered && !states.disabled ? "pointer" : "default",
+          decorator: decorator,
+          cursor: states.hovered && !states.disabled ? "pointer" : "default",
           width: 15,
           height: 15
         }

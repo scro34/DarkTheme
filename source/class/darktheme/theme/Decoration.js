@@ -36,11 +36,11 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundImage: "decoration/application/app-header.jpg"
       }
     },
-    
+
     "app-logo":
     {
       include: "button",
-      
+
       style: {
         radius: 45,
         shadowLength: 0,
@@ -48,21 +48,21 @@ qx.Theme.define("darktheme.theme.Decoration",
         shadowColor: "shadow"
       }
     },
-    
+
     "app-background":
     {
       style: {
         backgroundColor: "background-application"
       }
-        
+
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       BUTTON
     ---------------------------------------------------------------------------
     */
-    
+
     "button":
     {
       style: {
@@ -70,11 +70,11 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 5
       }
     },
-    
+
     "button-disabled":
     {
       include: "button",
-      
+
       style: {
         borderImage: "decoration/button/button-disabled.png",
         shadowBlurRadius: 0
@@ -84,7 +84,7 @@ qx.Theme.define("darktheme.theme.Decoration",
     "button-hovered":
     {
       include: "button",
-      
+
       style: {
         borderImage: "decoration/button/button-hovered.png"
       }
@@ -93,57 +93,57 @@ qx.Theme.define("darktheme.theme.Decoration",
     "button-pressed":
     {
       include: "button",
-      
+
       style: {
         borderImage: "decoration/button/button-pressed.png"
       }
     },
-    
-    "button-focused": 
+
+    "button-focused":
     {
       include: "button",
-      
+
       style: {
         color: "text-hovered"
       }
     },
-    
+
     "button-checked":
     {
       include: "button-pressed",
-      
+
       style: {
-        
+
       }
     },
-    
+
     "button-checked-hovered":
     {
       include: "button-checked",
-      
+
       style: {
         endColor: "button-end-checked-hovered"
       }
     },
-    
-    "button-checked-focused": 
+
+    "button-checked-focused":
     {
       include: "button-checked"
     },
-    
-    "button-checked-disabled": 
+
+    "button-checked-disabled":
     {
       include: "button-pressed",
-      
+
       style: {
         borderImage: "decoration/button/button-pressed-disabled.png"
       }
     },
 
-    "button-invalid": 
+    "button-invalid":
     {
       include: "button",
-      
+
       style: {
         borderImage: "decoration/button/button-invalid.png"
       }
@@ -152,7 +152,7 @@ qx.Theme.define("darktheme.theme.Decoration",
     "button-disabled-invalid":
     {
       include: "button-disabled",
-      
+
       style: {
         color: "border-invalid"
       }
@@ -161,7 +161,7 @@ qx.Theme.define("darktheme.theme.Decoration",
     "button-hovered-invalid":
     {
       include: "button-hovered",
-      
+
       style: {
         color: "border-invalid"
       }
@@ -170,7 +170,7 @@ qx.Theme.define("darktheme.theme.Decoration",
     "button-checked-invalid":
     {
       include: "button-checked",
-      
+
       style: {
         borderImage: "decoration/button/button-pressed-invalid.png"
       }
@@ -179,94 +179,94 @@ qx.Theme.define("darktheme.theme.Decoration",
     "button-pressed-invalid":
     {
       include: "button-pressed",
-      
+
       style: {
         borderImage: "decoration/button/button-pressed-invalid.png"
       }
     },
 
-    "button-focused-invalid": 
+    "button-focused-invalid":
     {
       include: "button-focused",
-      
+
       style: {
         color: "border-invalid"
       }
     },
 
-    "button-checked-focused-invalid": 
+    "button-checked-focused-invalid":
     {
       include: "button-checked-focused",
-      
+
       style: {
         borderImage: "decoration/button/button-pressed-invalid.png"
       }
     },
-    
+
     "button-simple":
     {
       style:
       {
 		radius: 2,
-		
+
 		width: 1,
 		color: "border-button",
-		
+
         backgroundImage: "decoration/button/button-simple.png",
         backgroundRepeat: "scale"
       }
     },
-    
+
     "button-simple-checked":
     {
 	  include: "button-simple",
-	  
+
       style:
       {
         backgroundImage: "decoration/button/button-simple-pressed.png"
       }
     },
-    
+
     "button-simple-hovered":
     {
 	  include: "button-simple",
-	  
+
       style:
       {
         backgroundImage: "decoration/button/button-simple-hovered.png"
       }
     },
-    
+
     "button-simple-disabled":
     {
 	  include: "button-simple",
-	  
+
       style:
       {
         backgroundImage: "decoration/button/button-simple-disabled.png"
       }
     },
-    
+
     "button-simple-invalid":
     {
 	  include: "button-simple",
-	  
+
       style:
       {
         color: "border-invalid"
       }
     },
-    
+
     "button-simple-checked-disabled":
     {
 	  include: "button-simple",
-	  
+
       style:
       {
         backgroundImage: "decoration/button/button-simple-pressed-disabled.png"
       }
     },
-    
+
     "splitbutton":
     {
       style:
@@ -275,7 +275,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 5
       }
     },
-    
+
     "splitbutton-checked":
     {
       style:
@@ -284,7 +284,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 5
       }
     },
-    
+
     "splitbutton-hovered":
     {
       style:
@@ -293,7 +293,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 5
       }
     },
-    
+
     "splitbutton-disabled":
     {
       style:
@@ -302,7 +302,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 5
       }
     },
-    
+
     "splitbutton-right":
     {
       style:
@@ -311,7 +311,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 5
       }
     },
-    
+
     "splitbutton-right-checked":
     {
       style:
@@ -320,7 +320,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 5
       }
     },
-    
+
     "splitbutton-right-hovered":
     {
       style:
@@ -329,7 +329,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 5
       }
     },
-    
+
     "splitbutton-right-disabled":
     {
       style:
@@ -338,21 +338,21 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 5
       }
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       CHECK BOX
     ---------------------------------------------------------------------------
     */
-    
-    "checkbox": 
+
+    "checkbox":
     {
       include: "button-simple",
-      
+
       style: {
         width: 1,
         color: "border-button",
-        
+
         shadowColor: "shadow",
         shadowLength: 0,
         shadowBlurRadius: 2
@@ -362,75 +362,75 @@ qx.Theme.define("darktheme.theme.Decoration",
     "checkbox-checked":
     {
       include: "checkbox",
-      
+
       style: {
         backgroundImage: "decoration/button/button-simple-pressed.png"
       }
     },
-    
+
     "checkbox-hovered":
     {
       include: "checkbox",
-      
+
       style: {
         backgroundImage: "decoration/button/button-simple-hovered.png"
       }
     },
-    
+
     "checkbox-checked-hovered":
     {
       include: "checkbox-checked"
     },
-      
-    "checkbox-focused": 
+
+    "checkbox-focused":
     {
       include: "checkbox"
     },
-    
+
     "checkbox-checked-focused":
     {
       include: "checkbox-checked"
     },
 
-    "checkbox-disabled": 
+    "checkbox-disabled":
     {
       include: "button-simple-disabled",
-      
+
       style: {
         color: "border-button-disabled",
         shadowBlurRadius: 0
       }
     },
-    
+
     "checkbox-checked-disabled":
     {
       include: "button-simple-checked-disabled"
     },
 
-    "checkbox-invalid": 
+    "checkbox-invalid":
     {
       include: "checkbox",
-      
+
       style: {
         color: "border-invalid",
         shadowColor: "border-invalid"
       }
     },
-    
+
     "checkbox-checked-invalid":
     {
       include: "checkbox-checked",
-      
+
       style: {
         shadowColor: "border-invalid",
         endColor: "border-invalid"
       }
     },
 
-    "checkbox-hovered-invalid": 
+    "checkbox-hovered-invalid":
     {
       include: "checkbox-hovered",
-      
+
       style: {
         color: "text-invalid",
         innerColor: "checkbox-hovered-inner-invalid",
@@ -438,46 +438,91 @@ qx.Theme.define("darktheme.theme.Decoration",
       }
     },
 
-    "checkbox-focused-invalid": 
+    "checkbox-focused-invalid":
     {
       include: "checkbox-focused",
-      
+
       style: {
         color: "text-invalid",
         shadowColor: "text-invalid"
       }
     },
-    
+
+    "checkbox-undetermined":
+    {
+      include: "checkbox",
+
+      style: {
+        backgroundImage: "decoration/checkbox/undetermined.png"
+      }
+    },
+
+    "checkbox-undetermined-disabled":
+    {
+      include: "checkbox",
+
+      style: {
+        backgroundImage: "decoration/checkbox/undetermined-disabled.png"
+      }
+    },
+
+    "checkbox-undetermined-hovered":
+    {
+      include: "checkbox",
+
+      style: {
+        backgroundImage: "decoration/checkbox/undetermined-hovered.png"
+      }
+    },
+
+    "checkbox-undetermined-invalid":
+    {
+      include: "checkbox-invalid",
+
+      style: {
+        backgroundImage: "decoration/checkbox/undetermined.png"
+      }
+    },
+
+    "checkbox-undetermined-focused":
+    {
+      include: "checkbox-focused",
+
+      style: {
+        backgroundImage: "decoration/checkbox/undetermined.png"
+      }
+    },
+
     /*
     ---------------------------------------------------------------------------
       COMBOBOX
     ---------------------------------------------------------------------------
     */
-    
+
     "combobox-button":
     {
       include: "button",
-      
+
       style: {
         radius: 1
       }
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       CORE
     ---------------------------------------------------------------------------
     */
 
-    "border-invalid": 
+    "border-invalid":
     {
       include: "input",
-      
+
       style: {
         color: "border-invalid"
       }
     },
-    
+
     "dragover":
     {
       style: {
@@ -493,7 +538,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         style: "dotted"
       }
     },
-    
+
     "main":
     {
       style: {
@@ -502,8 +547,8 @@ qx.Theme.define("darktheme.theme.Decoration",
         color: "border-window"
       }
     },
-    
-    "pane": 
+
+    "pane":
     {
       include: "input"
     },
@@ -514,7 +559,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundColor: "background-selected"
       }
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       GROUPBOX
@@ -528,7 +573,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 4
       }
     },
-    
+
     "group-focused":
     {
       style:
@@ -548,7 +593,7 @@ qx.Theme.define("darktheme.theme.Decoration",
     {
       include: "input"
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       MENU
@@ -569,7 +614,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat: "scale"
       }
     },
-    
+
     "menu-button-selected" :
     {
       style:
@@ -578,7 +623,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat: "scale"
       }
     },
-    
+
     "menu-button-red" :
     {
       style:
@@ -587,7 +632,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat: "scale"
       }
     },
-    
+
     "menu-separator" :
     {
       style:
@@ -613,7 +658,7 @@ qx.Theme.define("darktheme.theme.Decoration",
 		backgroundRepeat: "scale"
       }
     },
-    
+
     "menubar-selected":
     {
       style:
@@ -622,7 +667,7 @@ qx.Theme.define("darktheme.theme.Decoration",
 		backgroundRepeat: "scale"
       }
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       POPUP
@@ -633,7 +678,7 @@ qx.Theme.define("darktheme.theme.Decoration",
     {
 	  include: "input"
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       PROGRESSBAR
@@ -644,7 +689,7 @@ qx.Theme.define("darktheme.theme.Decoration",
     {
       style: {
         radius: 10,
-        width: 1, 
+        width: 1,
         color: "border-progressbar",
         startColor: "progressbar-start",
         endColor: "progressbar-end",
@@ -652,25 +697,25 @@ qx.Theme.define("darktheme.theme.Decoration",
         endColorPosition: 90
       }
     },
-    
+
     "progressbar-progress":
     {
 	  include: "button-simple-checked",
-	  
+
 	  style: {
 		radius: 10
 	  }
 	},
-	
+
     "progressbar-progress-disabled":
     {
       include: "scrollbar-slider-horizontal-disabled",
-      
+
       style: {
         radius: 10
       }
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       PROGRESSIVE
@@ -696,145 +741,145 @@ qx.Theme.define("darktheme.theme.Decoration",
         colorRight: "progressive-table-header-border-right"
       }
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       RADIO BUTTON
     ---------------------------------------------------------------------------
     */
-    
+
     "radiobutton":
     {
       include: "button-simple",
-      
+
       style: {
         radius: 15,
         width: 1,
         color: "border-button",
-        
+
         shadowColor: "shadow",
         shadowLength: 0,
         shadowBlurRadius: 2
       }
     },
-    
-    "radiobutton-hovered": 
+
+    "radiobutton-hovered":
     {
       include: "radiobutton",
-      
+
       style: {
         backgroundImage: "decoration/button/button-simple-hovered.png"
       }
     },
 
-    "radiobutton-checked": 
+    "radiobutton-checked":
     {
       include: "radiobutton",
-      
+
       style: {
         backgroundImage: "decoration/button/button-simple-pressed.png"
       }
     },
-    
-    "radiobutton-checked-hovered": 
+
+    "radiobutton-checked-hovered":
     {
       include: "radiobutton-checked",
-      
+
       style: {
         endColor: "text-hovered"
       }
     },
 
-    "radiobutton-checked-focused": 
+    "radiobutton-checked-focused":
     {
       include: "radiobutton-checked",
-      
+
       style: {
         endColor: "text-hovered"
       }
     },
 
-    "radiobutton-focused": 
+    "radiobutton-focused":
     {
       include: "radiobutton",
-      
+
       style: {
         shadowBlurRadius: 4
       }
     },
 
-    "radiobutton-disabled": 
+    "radiobutton-disabled":
     {
       include: "button-simple-disabled",
-      
+
       style: {
         radius: 15
       }
     },
 
-    "radiobutton-checked-disabled": 
+    "radiobutton-checked-disabled":
     {
       include: "button-simple-checked-disabled",
-      
+
       style: {
         radius: 15
       }
     },
 
-    "radiobutton-invalid": 
+    "radiobutton-invalid":
     {
       include: "button-simple-invalid",
-      
+
       style: {
         radius: 15,
         shadowBlurRadius: 2
       }
     },
 
-    "radiobutton-checked-invalid": 
+    "radiobutton-checked-invalid":
     {
       include: "radiobutton-checked",
-      
+
       style: {
         shadowColor: "border-invalid",
         endColor: "border-invalid"
       }
     },
 
-    "radiobutton-checked-focused-invalid": 
+    "radiobutton-checked-focused-invalid":
     {
       include: "radiobutton-checked-focused",
-      
+
       style: {
         color: "text-invalid",
         shadowColor: "text-invalid"
       }
     },
 
-    "radiobutton-checked-hovered-invalid": 
+    "radiobutton-checked-hovered-invalid":
     {
       include: "radiobutton-checked-hovered",
-      
+
       style: {
         color: "text-invalid",
         innerColor: "radiobutton-hovered-invalid"
       }
     },
 
-    "radiobutton-focused-invalid": 
+    "radiobutton-focused-invalid":
     {
       include: "radiobutton-focused",
-      
+
       style: {
         color: "text-invalid",
         shadowColor: "text-invalid"
       }
     },
 
-    "radiobutton-hovered-invalid": 
+    "radiobutton-hovered-invalid":
     {
       include: "radiobutton-hovered",
-      
+
       style: {
         color: "text-invalid",
         innerColor: "radiobutton-hovered-invalid",
@@ -847,7 +892,7 @@ qx.Theme.define("darktheme.theme.Decoration",
       SCROLLBAR
     ---------------------------------------------------------------------------
     */
-    
+
     "scrollbar-horizontal":
     {
       style:
@@ -865,76 +910,76 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat: "repeat-y"
       }
     },
-    
+
     "scrollbar-slider":
     {
 	    style: {
         radius: 15
       }
     },
-    
+
 	  "scrollbar-slider-horizontal":
     {
 	    include: "scrollbar-slider",
-	  
+
       style: {
         backgroundImage: "decoration/scrollbar/scrollbar-slider-horizontal.png",
         backgroundRepeat: "scale"
       }
     },
-	
+
 	  "scrollbar-slider-horizontal-hovered":
     {
 	    include: "scrollbar-slider",
-	  
+
       style: {
         backgroundImage: "decoration/scrollbar/scrollbar-slider-horizontal-hovered.png",
         backgroundRepeat: "scale"
       }
     },
-    
+
     "scrollbar-slider-horizontal-disabled":
     {
       style: {
         backgroundImage: "decoration/scrollbar/scrollbar-button-bg-horizontal.png",
         backgroundRepeat: "scale",
-        
+
         width: 1,
         color: "border-disabled",
         innerColor: "white",
         innerOpacity: 0.3
       }
     },
-	
+
 	  "scrollbar-slider-vertical":
     {
 	    include: "scrollbar-slider",
-	  
+
       style: {
         backgroundImage: "decoration/scrollbar/scrollbar-slider-vertical.png",
         backgroundRepeat: "scale"
       }
     },
-	
+
 	  "scrollbar-slider-vertical-hovered":
     {
 	    include: "scrollbar-slider",
-	  
+
       style: {
         backgroundImage : "decoration/scrollbar/scrollbar-slider-vertical-hovered.png",
         backgroundRepeat : "scale"
       }
     },
-    
+
     "scrollbar-slider-vertical-disabled":
     {
 	  include: "scrollbar-slider-horizontal-disabled",
-	  
+
       style: {
         backgroundImage: "decoration/scrollbar/scrollbar-button-bg-vertical.png"
       }
     },
-    
+
     "scrollbar-button-horizontal-left":
     {
       style: {
@@ -950,7 +995,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat: "scale"
       }
     },
-    
+
     "scrollbar-button-horizontal-right":
     {
       style: {
@@ -958,7 +1003,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat: "scale"
       }
     },
-    
+
     "scrollbar-button-horizontal-right-hovered":
     {
       style: {
@@ -966,7 +1011,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat: "scale"
       }
     },
-    
+
     "scrollbar-button-vertical-up":
     {
       style: {
@@ -974,7 +1019,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat: "scale"
       }
     },
-    
+
     "scrollbar-button-vertical-up-hovered":
     {
       style: {
@@ -982,7 +1027,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat: "scale"
       }
     },
-    
+
     "scrollbar-button-vertical-down":
     {
       style: {
@@ -990,7 +1035,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat: "scale"
       }
     },
-    
+
     "scrollbar-button-vertical-down-hovered":
     {
       style: {
@@ -1020,28 +1065,28 @@ qx.Theme.define("darktheme.theme.Decoration",
         colorTop: "border-separator"
       }
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       SLIDEBAR
     ---------------------------------------------------------------------------
     */
-    
+
     "slidebar-button":
     {
       include: "tabview-page-button-inactive"
     },
-    
+
     "slidebar-button-hovered":
     {
       include: "tabview-page-button-hovered"
     },
-    
+
     "slidebar-button-pressed":
     {
       include: "button-checked"
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       SLIDER
@@ -1057,7 +1102,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         widthTop: 5
       }
     },
-    
+
     "slider-vertical":
     {
       style: {
@@ -1065,27 +1110,27 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat: "repeat-y"
       }
     },
-    
+
     "slider-knob":
     {
       include: "radiobutton"
     },
-    
+
     "slider-knob-hovered":
     {
       include: "radiobutton-hovered"
     },
-    
+
     "slider-knob-pressed":
     {
       include: "radiobutton-checked"
     },
-    
+
     "slider-knob-disabled":
     {
       include: "radiobutton-disabled"
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       SPLITPANE
@@ -1102,31 +1147,31 @@ qx.Theme.define("darktheme.theme.Decoration",
         style: "solid"
       }
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       SPLITTER
     ---------------------------------------------------------------------------
     */
-    
+
     "splitter-knob-horizontal":
     {
       include: "scrollbar-slider-horizontal-pressed",
-      
+
       style: {
         shadowBlurRadius: 0
       }
     },
-    
+
     "splitter-knob-vertical":
     {
       include: "scrollbar-slider-vertical-pressed",
-      
+
       style: {
         shadowBlurRadius: 0
       }
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       TABLE
@@ -1142,20 +1187,20 @@ qx.Theme.define("darktheme.theme.Decoration",
         style: "solid"
       }
     },
-    
+
 	"table-header-cell":
     {
       style:
       {
 		backgroundImage: "decoration/bar/background.png",
 		backgroundRepeat: "scale",
-		
+
 		widthRight : 1,
 		colorRight: "#525252",
         styleRight : "solid"
       }
     },
-    
+
     "table-header-cell-hovered" :
     {
       style:
@@ -1169,7 +1214,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         styleBottom : "solid"
       }
     },
-	
+
 	"table-header-cell-selected":
     {
       style:
@@ -1178,7 +1223,7 @@ qx.Theme.define("darktheme.theme.Decoration",
 		backgroundRepeat: "scale"
       }
     },
-    
+
     "table-column-button" :
     {
       style:
@@ -1191,7 +1236,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         style       : "solid"
       }
     },
-	
+
 	"table-scroller-header":
     {
       style:
@@ -1200,7 +1245,7 @@ qx.Theme.define("darktheme.theme.Decoration",
 		backgroundRepeat: "scale"
       }
     },
-    
+
     "table-scroller-focus-indicator" :
     {
       style:
@@ -1210,22 +1255,22 @@ qx.Theme.define("darktheme.theme.Decoration",
         style: "solid"
       }
     },
-	
+
 	"table-statusbar":
     {
       style:
       {
 	    backgroundColor: "background-window",
-		
+
         widthTop: 1,
         colorTop: "#525252",
         style: "solid",
-		
+
 		innerWidthTop: 1,
         innerColorTop: "silver"
       }
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       TABVIEW
@@ -1240,177 +1285,177 @@ qx.Theme.define("darktheme.theme.Decoration",
 		backgroundRepeat: "scale"
       }
 	},
-	
+
 	"tabview-button-top":
 	{
 	  include: "button-simple",
-	  
+
 	  style:
 	  {
 		radius: [3, 3, 0, 0],
-		
+
 		width: 1,
 	    color: "border-tabview-button-active"
 	  }
 	},
-	
+
 	"tabview-button-top-hovered":
 	{
 	  include: "tabview-button-top",
-	  
+
 	  style:
 	  {
 	    backgroundImage: "decoration/button/button-simple-hovered.png"
 	  }
 	},
-	
+
 	"tabview-button-top-checked":
 	{
 	  include: "tabview-button-top",
-	  
+
 	  style:
 	  {
 	    backgroundImage: "decoration/button/button-simple-pressed.png"
 	  }
 	},
-	
+
 	"tabview-button-top-disabled":
 	{
 	  include: "tabview-button-top",
-	  
+
 	  style:
 	  {
 	    backgroundImage: "decoration/button/button-simple-disabled.png"
 	  }
 	},
-	
+
 	"tabview-button-bottom":
 	{
 	  include: "tabview-button-top",
-	  
+
 	  style:
 	  {
 		radius: [0, 0, 3, 3],
-		
+
 	    backgroundImage: "decoration/button/button-simple.png"
 	  }
 	},
-	
+
 	"tabview-button-bottom-hovered":
 	{
 	  include: "tabview-button-bottom",
-	  
+
 	  style:
 	  {
 	    backgroundImage: "decoration/button/button-simple-hovered.png"
 	  }
 	},
-	
+
 	"tabview-button-bottom-checked":
 	{
 	  include: "tabview-button-bottom",
-	  
+
 	  style:
 	  {
 	    backgroundImage: "decoration/button/button-simple-pressed.png"
 	  }
 	},
-	
+
 	"tabview-button-bottom-disabled":
 	{
 	  include: "tabview-button-bottom",
-	  
+
 	  style:
 	  {
 	    backgroundImage: "decoration/button/button-simple-disabled.png"
 	  }
 	},
-	
-	
+
+
 	"tabview-button-left":
 	{
 	  include: "tabview-button-top",
-	  
+
 	  style:
 	  {
 		radius: [3, 0, 0, 3],
-		
+
 	    backgroundImage: "decoration/button/button-simple.png"
 	  }
 	},
-	
+
 	"tabview-button-left-hovered":
 	{
 	  include: "tabview-button-left",
-	  
+
 	  style:
 	  {
 	    backgroundImage: "decoration/button/button-simple-hovered.png"
 	  }
 	},
-	
+
 	"tabview-button-left-checked":
 	{
 	  include: "tabview-button-left",
-	  
+
 	  style:
 	  {
 	    backgroundImage: "decoration/button/button-simple-pressed.png"
 	  }
 	},
-	
+
 	"tabview-button-left-disabled":
 	{
 	  include: "tabview-button-left",
-	  
+
 	  style:
 	  {
 	    backgroundImage: "decoration/button/button-simple-disabled.png"
 	  }
 	},
-	
+
 	"tabview-button-right":
 	{
 	  include: "tabview-button-top",
-	  
+
 	  style:
 	  {
 		radius: [0, 3, 3, 0],
-		
+
 	    backgroundImage: "decoration/button/button-simple.png"
 	  }
 	},
-	
+
 	"tabview-button-right-hovered":
 	{
 	  include: "tabview-button-right",
-	  
+
 	  style:
 	  {
 	    backgroundImage: "decoration/button/button-simple-hovered.png"
 	  }
 	},
-	
+
 	"tabview-button-right-checked":
 	{
 	  include: "tabview-button-right",
-	  
+
 	  style:
 	  {
 	    backgroundImage: "decoration/button/button-simple-pressed.png"
 	  }
 	},
-	
+
 	"tabview-button-right-disabled":
 	{
 	  include: "tabview-button-right",
-	  
+
 	  style:
 	  {
 	    backgroundImage: "decoration/button/button-simple-disabled.png"
 	  }
 	},
-	
+
     /*
     ---------------------------------------------------------------------------
       TEXT FIELD
@@ -1425,7 +1470,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 4
       }
     },
-    
+
     "input-focused":
     {
       style:
@@ -1434,7 +1479,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 4
       }
     },
-    
+
     "input-disabled":
     {
       style:
@@ -1443,7 +1488,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 4
       }
     },
-    
+
     "input-error":
     {
       style:
@@ -1452,7 +1497,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 4
       }
     },
-    
+
     "input-invalid":
     {
       style:
@@ -1461,7 +1506,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         slice: 4
       }
     },
-    
+
     "input-focused-invalid":
     {
       style:
@@ -1485,7 +1530,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat: "scale"
       }
     },
-    
+
     "toolbar-blank" :
     {
       style:
@@ -1495,11 +1540,11 @@ qx.Theme.define("darktheme.theme.Decoration",
         width: 1,
         color: "transparent",
         colorBottom: "border-separator",
-        
+
         style: "solid"
       }
     },
-    
+
     "toolbar-light":
     {
       style:
@@ -1508,7 +1553,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat: "scale"
       }
     },
-    
+
     "toolbar-separator":
     {
       style:
@@ -1523,14 +1568,14 @@ qx.Theme.define("darktheme.theme.Decoration",
         styleRight : "solid"
       }
     },
-    
+
     "toolbar-button-checked":
     {
       style:
       {
         backgroundImage: "decoration/button/button-simple-pressed.png",
         backgroundRepeat : "scale",
-        
+
         width: 1,
 
         colorTop: "#323232",
@@ -1541,17 +1586,17 @@ qx.Theme.define("darktheme.theme.Decoration",
         style: "solid"
       }
     },
-    
+
     "toolbar-button-checked-disabled":
     {
 	  include: "toolbar-button-checked",
-	  
+
       style:
       {
         backgroundImage: "decoration/button/button-simple-pressed-disabled.png"
       }
     },
-    
+
     "toolbar-button-hovered" :
     {
       style:
@@ -1560,40 +1605,40 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat : "scale"
       }
     },
-    
-    
+
+
     "toolbar-splitbutton-hovered":
     {
       style:
       {
         backgroundImage: "decoration/button/button-simple-hovered.png",
         backgroundRepeat: "scale",
-        
+
         widthRight: 1,
         colorRight: "#525252",
         styleRight: "solid"
       }
     },
-    
+
     "toolbar-splitbutton-arrow-hovered":
     {
       style:
       {
         backgroundImage: "decoration/button/button-simple-hovered.png",
         backgroundRepeat: "scale",
-        
+
         widthLeft: 1,
         colorLeft: "silver",
         styleLeft: "solid"
       }
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       TOOLTIP
     ---------------------------------------------------------------------------
     */
-    
+
     "tooltip-error":
     {
       style: {
@@ -1604,7 +1649,7 @@ qx.Theme.define("darktheme.theme.Decoration",
         shadowLength: 1
       }
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       VIRTUAL WIDGETS
@@ -1618,16 +1663,16 @@ qx.Theme.define("darktheme.theme.Decoration",
         endColor: "groupitem-end",
         startColorPosition: 0,
         endColorPosition: 100
-        
+
       }
     },
-    
+
     /*
     ---------------------------------------------------------------------------
       WINDOW
     ---------------------------------------------------------------------------
     */
-    
+
     "window-active":
     {
       style: {
@@ -1641,53 +1686,53 @@ qx.Theme.define("darktheme.theme.Decoration",
         backgroundRepeat: "scale"
       }
     },
-    
+
     "window-inactive":
     {
       include: "window-active",
-      
-      style: 
+
+      style:
       {
         shadowBlurRadius: 5
       }
     },
-    
+
     "window-captionbar-active":
     {
       style:
       {
 		backgroundImage: "decoration/window/captionbar-active.png",
         backgroundRepeat: "scale",
-        
+
         widthBottom: 1,
         colorBottom: "border-captionbar-active-bottom"
       }
     },
-	
+
 	"window-captionbar-inactive":
     {
       style:
       {
 		backgroundImage: "decoration/window/captionbar-inactive.png",
         backgroundRepeat: "scale",
-        
+
         widthBottom: 1,
         colorBottom: "border-captionbar-inactive-bottom"
       }
     },
-	
+
 	"window-statusbar" :
     {
       style: {
         backgroundImage : "decoration/window/statusbar.png",
         backgroundRepeat: "scale",
-        
+
         widthTop: 1,
         colorTop: "border-statusbar-top",
         innerWidthTop: 1,
         innerColorTop: "border-statusbar-top-inner"
       }
     }
-    
+
   }
 });
